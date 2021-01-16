@@ -1,0 +1,33 @@
+---
+title: "Exploration of data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Exploration of data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(footballR)
+library(tidyverse)
+```
+
+```{r download}
+
+x <- download_new_result()
+
+x
+
+summary(x)
+
+x %>% filter(home_score > 30)
+
+```
+
