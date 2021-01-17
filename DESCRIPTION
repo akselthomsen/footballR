@@ -16,7 +16,8 @@ RoxygenNote: 7.1.1
 Imports: 
     magrittr,
     httr,
-    readr
+    readr,
+    checkmate
 Suggests: 
     knitr,
     rmarkdown,

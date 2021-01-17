@@ -21,7 +21,7 @@ library(tidyverse)
 
 ```{r download}
 
-x <- download_new_result()
+x <- download_int_results()
 
 x
 
