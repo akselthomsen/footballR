@@ -2,24 +2,17 @@ Package: footballR
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Aksel",
+           family = "Thomsen",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "thomsenaksel@gmail.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Imports: 
-    magrittr,
-    httr,
-    readr,
-    checkmate
 Suggests: 
-    knitr,
-    rmarkdown,
-    tidyverse
 VignetteBuilder: knitr
+URL: https://akselthomsen.github.io/footballR/
